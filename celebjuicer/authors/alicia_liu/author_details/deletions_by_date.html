@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitStats - celebjuicer</title>
+    <meta charset='utf-8'>
+    <link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <style>
+      body { padding-top: 60px; }
+    </style>
+    <link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+    <script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+    <script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+    <script src='../../../assets/highstock.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </a>
+          <a class='brand' href='../../../index.html'>GitStats - celebjuicer</a>
+          <div class='nav-collapse collapse'>
+            <ul class='nav'>
+              <li class=''>
+                <a href='../../../general.html'>General</a>
+              </li>
+              <li class=''>
+                <a href='../../../activity/by_date.html'>Activity</a>
+              </li>
+              <li class='active'>
+                <a href='../../best_authors.html'>Authors</a>
+              </li>
+              <li class=''>
+                <a href='../../../files/by_date.html'>Files</a>
+              </li>
+              <li class=''>
+                <a href='../../../lines/by_date.html'>Lines</a>
+              </li>
+              <li class=''>
+                <a href='../../../comments/by_date.html'>Comments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='tabbable tabs-left'>
+        <ul class='nav nav-tabs'>
+          <li class=''>
+            <a href='commits_by_date.html'>Commits by date</a>
+          </li>
+          <li class=''>
+            <a href='changed_lines_by_date.html'>Changed lines by date</a>
+          </li>
+          <li class=''>
+            <a href='insertions_by_date.html'>Lines added by date</a>
+          </li>
+          <li class='active'>
+            <a href='deletions_by_date.html'>Lines deleted by date</a>
+          </li>
+        </ul>
+        <div class='tab-content'>
+          <div class='tab-pane active'>
+            <div class='page-header'>
+              <h1 class='pagination-centered'>Lines deleted by date</h1>
+            </div>
+                    <script type="text/javascript">
+                    (function() {
+                      var onload = window.onload;
+                      window.onload = function(){
+                        if (typeof onload == "function") onload();
+                                var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.deletions_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Alicia Liu","type": "spline","data": [ [ 1336521600000,0 ],[ 1336526799000,0 ],[ 1336675937000,14 ],[ 1336763353000,18 ],[ 1336780800000,18 ],[ 1336867200000,18 ],[ 1336953600000,18 ],[ 1337040000000,18 ],[ 1337126400000,18 ],[ 1337307518000,19 ],[ 1337307528000,19 ],[ 1337360614000,19 ],[ 1337360766000,19 ],[ 1337384174000,23 ],[ 1337384851000,24 ],[ 1337385009000,25 ],[ 1337385600000,29 ],[ 1337385792000,27 ],[ 1337386297000,29 ],[ 1337472000000,29 ],[ 1337558400000,29 ],[ 1337671129000,40 ],[ 1337671888000,41 ],[ 1337713507000,43 ],[ 1337727699000,49 ],[ 1337728718000,49 ],[ 1337803622000,77 ],[ 1337814946000,89 ],[ 1337819638000,90 ],[ 1337880354000,93 ],[ 1337891934000,94 ],[ 1337893197000,94 ],[ 1337899414000,99 ],[ 1337900688000,102 ],[ 1337903026000,121 ],[ 1337990400000,157 ],[ 1337996809000,157 ],[ 1337996890000,157 ],[ 1338013174000,157 ],[ 1338076800000,157 ],[ 1338163200000,157 ],[ 1338324186000,217 ],[ 1338324577000,219 ],[ 1338324618000,219 ],[ 1338339722000,222 ],[ 1338410802000,223 ],[ 1338410816000,223 ],[ 1338411258000,249 ],[ 1338411286000,249 ],[ 1338419758000,310 ],[ 1338423148000,310 ],[ 1338424260000,315 ],[ 1338425591000,317 ],[ 1338487691000,327 ],[ 1338488679000,329 ],[ 1338493956000,329 ],[ 1338496365000,333 ],[ 1338504605000,354 ],[ 1338505487000,376 ],[ 1338508219000,564 ],[ 1338508765000,566 ],[ 1338510755000,566 ],[ 1338588254000,567 ],[ 1338588319000,567 ],[ 1338589890000,616 ],[ 1338589906000,616 ],[ 1338590667000,618 ],[ 1338594147000,618 ],[ 1338594895000,619 ],[ 1338595200000,716 ],[ 1338595327000,621 ],[ 1338596890000,621 ],[ 1338596958000,624 ],[ 1338597572000,625 ],[ 1338597907000,626 ],[ 1338600332000,627 ],[ 1338616347000,716 ],[ 1338617315000,716 ],[ 1338681600000,716 ],[ 1338768000000,716 ],[ 1338928762000,730 ],[ 1338928793000,730 ],[ 1338935833000,746 ],[ 1338935840000,746 ],[ 1338942573000,751 ],[ 1339019788000,751 ],[ 1339022434000,752 ],[ 1339022739000,752 ],[ 1339022751000,752 ],[ 1339037008000,757 ],[ 1339037021000,758 ],[ 1339037105000,758 ],[ 1339059554000,770 ],[ 1339060169000,777 ],[ 1339104046000,778 ],[ 1339114826000,778 ],[ 1339114850000,779 ],[ 1339121948000,820 ],[ 1339122207000,821 ],[ 1339200000000,830 ],[ 1339200265000,830 ],[ 1339286400000,830 ],[ 1339454939000,830 ],[ 1339455068000,831 ],[ 1339459200000,837 ],[ 1339460832000,837 ],[ 1339610420000,839 ],[ 1339625038000,839 ],[ 1339632000000,839 ],[ 1339718400000,839 ],[ 1339804800000,839 ],[ 1339891200000,839 ],[ 1339977600000,839 ],[ 1340130891000,841 ],[ 1340130986000,841 ],[ 1340147002000,844 ],[ 1340147019000,844 ],[ 1340150400000,844 ],[ 1340236800000,844 ],[ 1340323200000,844 ],[ 1340409600000,844 ],[ 1340496000000,844 ],[ 1340582400000,844 ],[ 1340668800000,844 ],[ 1340755200000,844 ],[ 1340914046000,856 ],[ 1340914179000,856 ],[ 1340928000000,1294 ],[ 1340939830000,1290 ],[ 1340939892000,1290 ],[ 1340940634000,1291 ],[ 1340941310000,1294 ],[ 1341094813000,1295 ],[ 1341181349000,1295 ],[ 1341181723000,1296 ],[ 1341272742000,1305 ],[ 1341272942000,1324 ],[ 1341273600000,1325 ],[ 1341286984000,1324 ],[ 1341290736000,1325 ],[ 1341360000000,1325 ],[ 1341511820000,1326 ],[ 1341513643000,1329 ],[ 1341526059000,1370 ],[ 1341596848000,1370 ],[ 1341615703000,1370 ],[ 1341619200000,1370 ],[ 1341705600000,1370 ],[ 1341792000000,1370 ],[ 1341878400000,1370 ],[ 1342032357000,1370 ],[ 1342032379000,1370 ],[ 1342038744000,1382 ],[ 1342039205000,1384 ],[ 1342042467000,1385 ] ] }] };
+                    
+                    window.chart_charts.deletions_by_author_by_date = new Highcharts.StockChart(options);
+            
+                      };
+                    })()
+                    </script>
+            <div id="charts.deletions_by_author_by_date"></div>
+            <small>
+              <center>5 best authors shown</center>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
